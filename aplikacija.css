@@ -1,0 +1,75 @@
+.pocetna_proizvodaci {
+    width: 24%;
+    float: left;
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    background-color: silver;
+}
+
+body {
+    background-color: #adad85;
+    width: 95%;
+}
+
+#zaglavlje {
+    font-size: 40px;
+}
+
+#navigacija {
+    width: 30%;
+    float: left;
+}
+
+#navigacija ul {
+    list-style: none;
+    width: 250px;
+}
+
+#navigacija li a {
+    display: block;
+    background-color: #999966;
+    font-size: 25px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+section {
+    width: 65%;
+    float: left;
+    margin-right: 3%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: 10%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+form {
+    width: 100%;
+}
+
+input, select, textarea {
+    width: 100%;
+    font-size: 20px;
+}
+
+
